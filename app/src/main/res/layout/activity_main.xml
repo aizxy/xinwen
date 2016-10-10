@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.happyapplication.MainActivity">
+
+   <android.support.v4.view.ViewPager
+       android:id="@+id/vp_mian"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/iv_main_a41"
+        android:background="@drawable/a4"
+        android:layout_width="30dp"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:id="@+id/iv_main_a42"
+        android:background="@drawable/a4"
+        android:layout_width="30dp"
+        android:layout_toRightOf="@+id/iv_main_a41"
+        android:layout_alignTop="@+id/iv_main_a41"
+        android:layout_height="30dp" />
+    <ImageView
+        android:id="@+id/iv_main_a43"
+        android:background="@drawable/a4"
+        android:layout_width="30dp"
+        android:layout_toRightOf="@+id/iv_main_a42"
+        android:layout_marginBottom="20dp"
+        android:layout_alignTop="@+id/iv_main_a41"
+        android:layout_height="30dp" />
+    <ImageView
+        android:id="@+id/iv_main_a44"
+        android:background="@drawable/a4"
+        android:layout_width="30dp"
+        android:layout_toRightOf="@+id/iv_main_a43"
+        android:layout_alignTop="@+id/iv_main_a41"
+        android:layout_marginBottom="20dp"
+        android:layout_height="30dp" />
+</RelativeLayout>

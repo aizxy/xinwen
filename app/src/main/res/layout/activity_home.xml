@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_home_titlebar"
+        android:layout_width="match_parent"
+        android:background="#6AC5F6"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_home_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="22sp"
+            android:text="资讯"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_home_left"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_title_home_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_home_right"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_title_share_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/contianer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</LinearLayout>

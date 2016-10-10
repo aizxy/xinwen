@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.happyapplication.fragment.HomeFragment">
+
+   <com.example.administrator.happyapplication.view.HorizontalListView
+       android:layout_width="match_parent"
+       android:id="@+id/horizontalView"
+       android:layout_height="50dp">
+
+   </com.example.administrator.happyapplication.view.HorizontalListView>
+
+   <ListView
+       android:id="@+id/lv_fragmenthome"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </ListView>
+
+
+</LinearLayout>

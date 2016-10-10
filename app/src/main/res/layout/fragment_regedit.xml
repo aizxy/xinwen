@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_regedit_add"
+        android:hint="请输入邮箱地址"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/bg_edittext_selector"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_regedit_nickName"
+        android:layout_width="match_parent"
+        android:hint="请输入昵称"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/bg_edittext_selector"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_regedit_pwd"
+        android:hint="密码：6到16位个字符"
+        android:textSize="20sp"
+        android:password="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_edittext_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_regedit"
+        android:text="立即注册"
+        android:textSize="22sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#990000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_regedit_agree"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:text="我同意“服务条款”和“网络用户隐私保护和个人信息利用政策”"
+        android:layout_height="wrap_content" />
+</LinearLayout>

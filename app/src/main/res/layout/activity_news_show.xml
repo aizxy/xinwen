@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="#ffaa0000"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_newsshow_back"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="军事"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_newsshow_ties"
+            android:text="跟帖数："
+            android:layout_toLeftOf="@+id/iv_newsshow_favorite"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_newsshow_favorite"
+            android:layout_width="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/news_menu"
+            android:layout_alignParentRight="true"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/pb_newsshow"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/login_progress_bar"
+        android:layout_height="10dp" />
+
+    <WebView
+        android:id="@+id/wv_newsshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>

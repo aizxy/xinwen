@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#135a5c"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.happyapplication.fragment.FavoriteFragment">
+
+    <ListView
+        android:id="@+id/lv_favorite"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:background="#2ca8d5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/fafa"
+            android:text="我的"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/near"
+            android:text="大家"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/my_contianer"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</LinearLayout>
